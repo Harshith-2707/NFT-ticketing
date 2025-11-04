@@ -1,5 +1,5 @@
 {
-  "configurations": [
+  "configurations":  [
     {
       "type": "msedge",
       "request": "launch",
