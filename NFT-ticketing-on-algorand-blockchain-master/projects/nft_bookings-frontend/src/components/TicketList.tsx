@@ -55,11 +55,11 @@ const TicketList: React.FC = () => {
         const ticketIds = await appClient.getMyTickets()
 
         const mockEvents = [
-          { name: "Summer Music Festival", date: "2024-07-15" },
-          { name: "Tech Conference 2024", date: "2024-08-20" },
-          { name: "Art Exhibition", date: "2024-09-10" },
-          { name: "Sports Championship", date: "2024-10-05" },
-          { name: "Comedy Show", date: "2024-11-12" }
+          { name: "Summer Music Festival", date: "2025-07-15" },
+          { name: "Tech Conference 2024", date: "2025-08-20" },
+          { name: "Art Exhibition", date: "2025-09-10" },
+          { name: "Sports Championship", date: "2025-10-05" },
+          { name: "Comedy Show", date: "2025-11-12" }
         ]
 
         // Deduplicate and assign events
